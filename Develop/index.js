@@ -1,12 +1,14 @@
-// TODO: Include packages needed for this application
+// Included packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Function to generate the README file based on userData
 const generateREADME = (userData) => {
   return generateMarkdown();
 };
 
+// List of questions the user is asked upon initialization of app
 const questions = [
   {
     type: "input",
@@ -60,18 +62,20 @@ const questions = [
 ];
 
 // TODO: Create a function to initialize app
+// The init function runs the prompt for the user in the terminal
+// A new variable is created, answers, pulling the user info to be passed into the writeFile function, logs errors if present or a successful confirmation message.
 function init() {
   return inquirer.prompt(questions).then((userData) => {
-    const mark = generateMarkdown(userData);
-    fs.writeFile("README2.md", mark, (error) => {
+    const answers = generateMarkdown(userData);
+    fs.writeFile("README2.md", answers, (error) => {
       error
         ? console.log(error)
         : console.log("Your README file was generated");
     });
-    console.log(mark);
+    console.log(answers);
     return userData;
   });
 }
 
-// Function call to initialize app
+// Function call to initialize the app
 init();

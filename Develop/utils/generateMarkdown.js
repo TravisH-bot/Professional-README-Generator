@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function that returns a license badge based on which license is passed in
+// If there is no license, it returns an empty string
 function renderLicenseBadge(license) {
   const badges = {
     mit: `![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)`,
@@ -11,8 +11,8 @@ function renderLicenseBadge(license) {
   return badges[license];
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link
+// If there is no license, it returns an empty string
 function renderLicenseLink(license) {
   const licenseLinks = {
     mit: `[MIT](https://choosealicense.com/licenses/mit/)`,
@@ -24,8 +24,8 @@ function renderLicenseLink(license) {
   return licenseLinks[license];
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README
+// If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   if (license) {
     return `This project is licensed under the ${renderLicenseLink(
@@ -36,7 +36,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Function that generates markdown for README based on userData gathered from the prompt
 function generateMarkdown(userData) {
   return `
 # ${userData.project}
@@ -86,4 +86,5 @@ If you have any questions about the repo, open an issue or contact me directly a
 `;
 }
 
+// Exports the generateMarkdown function to be used in the index.js file
 module.exports = generateMarkdown;
