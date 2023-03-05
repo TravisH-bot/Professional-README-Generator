@@ -61,7 +61,7 @@ https://drive.google.com/file/d/1oBsN9zR7t7jaACJyxeLOxy00WE130c23/view
 
 Most of the project was created with the aid of the previous lessons and the mini-project leading up to the challenge.
 
-I used a tutorial [medium.com](https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b) to help learn the formatting to add the [shields.io](https://shields.io/) badges as well as the [shields.io](https://shields.io/) site as well.
+I used a tutorial found on [medium.com](https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b) to help learn the formatting to add the [shields.io](https://shields.io/) badges as well as the [shields.io](https://shields.io/) site as well.
 
 ## Badges
 
