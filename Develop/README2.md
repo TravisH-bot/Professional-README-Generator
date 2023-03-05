@@ -1,41 +1,41 @@
 
-# t
+# f
 
-![GitHub License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Description
-t
+f
 
 ## Table Of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Questions](#questions)
 
 ## Installation 
 
 To install necessary dependencies, run the following command:
 
-t
+f
 
 ## Usage
-t
+f
 
 ## License
-This project is licensed under the [APACHE 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
-t
+f
 
 ## Tests
 
 To run tests, run the following command:
 
-t
+f
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at t. You can find more of my work at t (https://github.com/TravisH-bot).
+If you have any questions about the repo, open an issue or contact me directly at f. You can find more of my work at d (https://github.com/TravisH-bot).
 
