@@ -59,10 +59,7 @@ ${userData.description}
 
 To install necessary dependencies, run the following command:
 
-``code
 ${userData.dependencies}
-  
-``
 
 ## Usage
 ${userData.usingRepo}
